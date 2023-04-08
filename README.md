@@ -16,7 +16,9 @@ The Robot uses a three-dimensional robotic arm made by plexiglass, the whole des
 I paint the stones with green and orange color, to make the detection process easier.
 Chess Engine:
 In order to help to robot to make a decision of the best move on his turn I used Stock Fish engine, which is a free and open-source chess engine, commonly used to calculate the optimal move in various chess scenarios needed for a checkmate. The Stock Fish has its own API, so all wat I wanted to do is to make an API call contains the actual stat of the board, and he will respond with the best move.
-The speaker:
+# The speaker:
 The Robot has the ability to speak, using an external speaker and python. The main of adding this ability to warn the opponent in some special cases like: illegal move, check or check mate.
 # Summary:
 I delivered a full autonomous manipulator arm that has the ability to play with a mind that can beat chess world-champions with less-than-a-minute for each move, using computational power as minimum as a Raspberry Pi 3 controller.
+
+## For more details: https://www.youtube.com/watch?v=dY9qcbvZX_0&t=88s .
