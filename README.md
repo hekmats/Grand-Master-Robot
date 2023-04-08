@@ -1,6 +1,8 @@
 # Grand-Master-Robot
 Grand-Master-Robot is a fully autonomous robot has the ability to play full chess round against people.
 
+![alt text](https://github.com/hekmats/Grand-Master-Robot/blob/main/PICs/2.jpg?raw=true)
+
 # Vision:
 The Grand-Master Robot uses computer vision to recognize where the chess pieces are on the board before deciding what move to make. The Robot sees through a Raspberry Pi camera module which attached directly to the raspberry pi, where the both are located in a box above the chess board. I used python3.7 and OpenCV 3 to drive the camera, after capturing the image there are many Image processing stages before we decide what is the actual state of the board:
 1-	Change the perspective of the taken image by applying a perspective warp matrix. (the output would be just the board).
